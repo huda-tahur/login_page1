@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="registerForm.css"rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="#">
+            <h1>Register Here</h1>
+            <div class="input-box">
+                <p>Name: <input type="text"placeholder="Full Name"></p>
+            </div>
+            <div class="input-box">
+                <p>Phone No:<input type="text"placeholder="Phone Number"></p>
+            </div>
+            <div class="input-box">
+                <p>Email Id: <input type="text"placeholder="Email Id"></p>
+            </div>
+            <div class="calender">
+                <p>Date of Birth:<input type="date"name=date></p>
+            </div>
+            <div class="select-city">
+                <p>City:<select name="City"id="one">
+                    <option value="Delhi">Dehli</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Nanded">Nanded</option>
+                    <option value="Aurangabad">Aurangabad</option>
+                </select></p>
+            </div>
+            <div class="gender">
+                <p>Gender:<input type="radio"value="female"name="gender">Female<input type="radio"value="male"name="gender">Male</p>
+            </div>
+            <div class="known-language">
+                <p>Known Languages:</p>
+                    <label for="English">
+                        <input type="checkbox"value="english"name="language">English
+                    </label>
+                    <br>
+                    <label for="Urdu">
+                        <input type="checkbox"value="urdu"name="language">Urdu
+                    </label>
+                    <br>
+                    <label for="Marathi">
+                        <input type="checkbox"value="marathi"name="language">Marathi
+                    </label>
+            </div>
+            <button type="submit"class="btn">Submit</button>
+            <button type="reset"class="btn">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
